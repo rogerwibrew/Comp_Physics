@@ -49,6 +49,6 @@ if __name__ == "__main__":
     plt.plot(x_list, taylor(func, x_list, 2, nmax, h), "red")
     plt.plot(x_list, taylor(func, x_list, -3, nmax, h), "green")
 
-    fname = "./plots/general_taylor"
+    fname = "../plots/general_taylor.png"
 
     plt.savefig(fname)
